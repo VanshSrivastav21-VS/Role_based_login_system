@@ -4,7 +4,6 @@ from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse_lazy
 # Create your views here.
 
-
 def index(request):
     return render(request, 'index.html')
 
@@ -47,11 +46,6 @@ def login_view(request):
             msg = 'error validating form'
     return render(request, 'login.html', {'form': form, 'msg': msg})
 
-def logout_view(request):
-    def get(self, request):
-        logout(request)
-        return redirect(reverse_lazy('login'))
-
 
 def admin(request):
     return render(request,'admin.html')
@@ -63,3 +57,8 @@ def customer(request):
 
 def employee(request):
     return render(request,'employee.html')
+
+
+def logout_view(request):
+    logout(request)
+    return redirect('login_view')
