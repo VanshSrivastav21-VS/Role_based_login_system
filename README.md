@@ -17,7 +17,7 @@ This project demonstrates how to create a Django application with multi-user reg
 
 ## Demo
 
-Insert gif or link to demo
+![Multiple user login and 1 more page - Personal - Microsoft_ Edge 2024-07-22 12-34-29](https://github.com/user-attachments/assets/37b348d6-538e-48ac-9900-73131e3f76d8)
 
 
 ## 🚀 About Me
