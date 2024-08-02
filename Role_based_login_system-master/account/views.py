@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from .forms import SignUpForm, LoginForm
 from django.contrib.auth import authenticate, login, logout
-from django.urls import reverse_lazy
+# from django.urls import reverse_lazy
 # Create your views here.
 
 def index(request):
